@@ -35,7 +35,7 @@ def find_the_cheese (cheeses)
   
 
     
-      if cheeses.include? (cheese_types)
+      if cheeses.include? (cheese_types[i])
         return cheese_types[i]
       end
       
